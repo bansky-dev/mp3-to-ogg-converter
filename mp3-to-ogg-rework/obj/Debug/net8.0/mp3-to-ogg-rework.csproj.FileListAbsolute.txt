@@ -21,3 +21,4 @@ C:\_repos\mp3toogg\mp3-to-ogg-rework\bin\Debug\net8.0\NAudio.WinMM.dll
 C:\_repos\mp3toogg\mp3-to-ogg-rework\bin\Debug\net8.0\NVorbis.dll
 C:\_repos\mp3toogg\mp3-to-ogg-rework\obj\Debug\net8.0\mp3-to-ogg-rework.csproj.AssemblyReference.cache
 C:\_repos\mp3toogg\mp3-to-ogg-rework\obj\Debug\net8.0\mp3-to-o.AD5E5EB7.Up2Date
+C:\_repos\mp3toogg\mp3-to-ogg-rework\obj\Debug\net8.0\mp3-to-ogg-rework.sourcelink.json
