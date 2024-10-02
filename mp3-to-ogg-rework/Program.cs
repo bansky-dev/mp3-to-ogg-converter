@@ -27,7 +27,7 @@ class Program
                 pcmFilePath = Console.ReadLine();
                 
                 decodeMp3ToPcm(mp3FilePath, pcmFilePath);
-                encodePcmToOgg();
+                //encodePcmToOgg();
             }
             else if(choice == 2)
             {
@@ -63,30 +63,7 @@ class Program
     }
 
 
-    //TODO: Organize these datatypes and entire code;
-    static void encodePcmToOgg(string pcmPath){
-        var oggStream = new FileStream(oggOutputPath, FileMode.Create);
-        var vorbisEncoder = new OggVorbisEncoder.OggEncoder();
-
-        using (var pcmStream = new FileStream(pcmFilePath, FileMode.Open, FileAccess.Read))
-        {
-            var pcmWaveFormat = new WaveFormat(sampleRate, 16, channels);
-            var waveProvider = new RawSourceWaveStream(pcmStream, pcmWaveFormat);
-
-            byte[] buffer = new byte[4096];
-            int bytesRead;
-            while ((bytesRead = waveProvider.Read(buffer, 0, buffer.Length)) > 0)
-            {
-                // Encode the PCM data to OGG using the encoder
-                vorbisEncoder.WriteSamples(buffer, bytesRead, channels, sampleRate);
-            }
-
-            // Finalize the encoding and close the stream
-            vorbisEncoder.Close();
-        }
-
-        Console.WriteLine("PCM has been successfully encoded to OGG!");
-    }
+    //TODO: Make function able to encode raw PCM file format to OGG file
 
     static void menuHandler(){
         Console.WriteLine("=====MP3 TO OGG CONVERTER=====");

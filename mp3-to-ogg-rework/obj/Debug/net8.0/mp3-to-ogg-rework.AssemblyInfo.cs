@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mp3-to-ogg-rework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9116175a313d5a44f82f844e78a4902c91c7d6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ac54007fbc62520d8169485af340fa75e60fbe3")]
 [assembly: System.Reflection.AssemblyProductAttribute("mp3-to-ogg-rework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mp3-to-ogg-rework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
